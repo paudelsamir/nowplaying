@@ -544,6 +544,15 @@ Panel {
                   font.bold: true
                   elide: Text.ElideRight
                 }
+                Text {
+                  width: parent.width
+                  visible: text !== ""
+                  text: root.nowPlayingMeta(modelData)
+                  color: Qt.darker(root.contentForeground, 1.45)
+                  font.family: root.contentFontFamily
+                  font.pixelSize: Style.font.bodySmall
+                  elide: Text.ElideRight
+                }
               }
             }
 
