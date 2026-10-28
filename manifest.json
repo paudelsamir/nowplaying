@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "paudelsamir.nowplaying",
+  "name": "Now Playing",
+  "version": "1.0.0",
+  "author": "paudelsamir",
+  "license": "MIT",
+  "description": "Minimal, functional now playing for the omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Now Playing",
+    "description": "Minimal, functional now playing for the bar",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
