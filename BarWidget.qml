@@ -134,6 +134,7 @@ BarWidget {
     }
 
     Text {
+      textFormat: Text.PlainText
       visible: root.showTitle || root.showArtist
       text: root.barText
       color: root.barForeground

@@ -536,6 +536,7 @@ Panel {
                 anchors.verticalCenter: parent.verticalCenter
 
                 Text {
+                  textFormat: Text.PlainText
                   width: parent.width
                   text: modelData.trackTitle || modelData.identity || "Unknown track"
                   color: root.contentForeground
@@ -545,6 +546,7 @@ Panel {
                   elide: Text.ElideRight
                 }
                 Text {
+                  textFormat: Text.PlainText
                   width: parent.width
                   visible: text !== ""
                   text: root.nowPlayingMeta(modelData)
